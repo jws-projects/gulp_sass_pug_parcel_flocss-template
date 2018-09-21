@@ -5,7 +5,8 @@ htmlとcssおよび開発環境は、gulpを利用。jsはparcelを利用して�
 ## Usage
 
 ### インストール
-` npm install ` or `yarn`
+- ` npm install ` or `yarn`
+- **npm install parcel -g**
 
 ### コマンド
 

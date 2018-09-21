@@ -138,7 +138,6 @@ gulp.task('imagemin', function() {
     .pipe(
       imagemin([
         imagemin.optipng({ optimizationLevel: 7 }),
-        ,
         imagemin.jpegtran({
           quality: 85,
           progressive: true
@@ -160,7 +159,6 @@ gulp.task('imagemin_dist', function() {
     .pipe(
       imagemin([
         imagemin.optipng({ optimizationLevel: 7 }),
-        ,
         imagemin.jpegtran({
           quality: 85,
           progressive: true
